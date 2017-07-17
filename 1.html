@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<style>
+*{
+	margin:0px;
+	padding:0px;
+}
+.box{	height:300px;
+	width:300px;
+	margin:50px;
+        border:2px solid red;
+        padding:5px ;
+}
+
+.box a{ color:white;
+	font-size:14px;
+	display:block;
+	text-decoration:none;
+	width:100px;
+	height:100px;
+	line-height:100px;
+	background:pink;
+	text-align:center	
+}
+.box a:nth-of-type(2n){
+		position:relative;
+		left:200px;	
+		top:-100px
+}
+.box a:last-of-type{
+		position:relative;
+		left:100px;	
+		top:-300px
+}
+a:hover{
+	background:orange;
+}
+</style>
+</head>
+<body>
+<div class="box">
+<a href="#">链接1</a>
+<a href="#">链接2</a>
+<a href="#">链接3</a>
+<a href="#">链接4</a>
+<a href="#">链接5</a>
+</div>
+</body>
+</html>
